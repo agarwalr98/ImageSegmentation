@@ -27,4 +27,4 @@ pic2show = kmeans.cluster_centers_[kmeans.labels_]
 cluster_pic = pic2show.reshape(arr.shape[0], arr.shape[1], arr.shape[2])
 print("Shape:", cluster_pic.shape)
 plt.imshow(cluster_pic)
-plt.imsave("SegmentedImage_using_KmeansLibrary" + '.jpg', cluster_pic)
+plt.imsave("plot/SegmentedImage_using_KmeansLibrary" + '.jpg', cluster_pic)
